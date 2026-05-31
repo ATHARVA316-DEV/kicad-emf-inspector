@@ -8,7 +8,7 @@ tags:
   - KiCad
   - signal integrity
 authors:
-  - name: Your Name
+  - name: Atharva M
     affiliation: 1
 affiliations:
   - name: Independent Researcher
