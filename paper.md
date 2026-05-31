@@ -196,10 +196,11 @@ codebase.
 # AI Usage Disclosure
 
 Claude (Anthropic) was used to assist with drafting and refining sections
-of this paper. All technical content — physics models, equations, rule
-descriptions, software architecture, and accuracy claims — was authored,
-verified, and validated by the author. The tool's source code was written
-by the author; AI assistance was limited to paper writing only.
+of this paper. Antigravity (Google DeepMind) was used as an AI pair-programming
+assistant to help architect and generate the Python source code under the
+author's direction. All technical content — physics models, equations, rule
+descriptions, software architecture, and accuracy claims — was ultimately
+authored, verified, and validated by the author.
 
 # Acknowledgements
 
