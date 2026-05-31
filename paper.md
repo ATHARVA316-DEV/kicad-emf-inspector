@@ -32,6 +32,8 @@ correcting these problems late in the hardware development cycle is costly:
 a PCB re-spin typically costs between USD 5,000 and USD 50,000 and delays
 a project by weeks to months.
 
+![The EMF Inspector graphical user interface analyzing a 4-layer RF board, showing the composite EMI heatmap, detected rule violations, and the AI explanation engine.](screenshot.png)
+
 `EMF Inspector` is an open-source, Python-based desktop tool that gives
 engineers fast, first-order EMI feedback directly from a KiCad `.kicad_pcb`
 layout file — without requiring a full-wave electromagnetic simulator.
