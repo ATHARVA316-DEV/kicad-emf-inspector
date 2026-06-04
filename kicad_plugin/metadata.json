@@ -1,0 +1,33 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "EMF Inspector",
+    "description": "Physics-based EMI analyzer for PCB layouts with AI-powered fix recommendations.",
+    "description_full": "EMF Inspector brings physics-based electromagnetic interference (EMI) analysis directly into KiCad's PCB editor.\n\nFeatures:\n- 12 rule-based EMI detectors covering trace radiation, current loops, crosstalk, impedance mismatches, decoupling placement, and more\n- FR4 substrate-corrected wavelength calculations for accurate thresholds\n- AI-powered explanations with physics background and step-by-step recommendations\n- EMI and RF severity scoring with CRITICAL/HIGH/MEDIUM/LOW classifications\n- Export detailed reports to HTML and JSON\n- Fully offline — no internet or API keys required\n\nPhysics Models:\n- Biot-Savart magnetic field estimation (B = mu0 I / 2pi r)\n- Near-field electric field approximation (E = V / d)\n- Hammerstad-Jensen microstrip impedance (Z0)\n- FR4 guided wavelength correction (lambda_eff = c / f sqrt(er))\n\nRequires: NumPy, Matplotlib (usually bundled with KiCad)",
+    "identifier": "com.github.atharva316-dev.emf-inspector",
+    "type": "plugin",
+    "author": {
+        "name": "Atharva",
+        "contact": {
+            "email": "matharva357@gmail.com",
+            "github": "https://github.com/ATHARVA316-DEV"
+        }
+    },
+    "maintainer": {
+        "name": "Atharva",
+        "contact": {
+            "email": "matharva357@gmail.com",
+            "github": "https://github.com/ATHARVA316-DEV"
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/ATHARVA316-DEV/kicad-emf-inspector"
+    },
+    "versions": [
+        {
+            "version": "1.1.0",
+            "status": "stable",
+            "kicad_version": "9.0.0"
+        }
+    ]
+}
